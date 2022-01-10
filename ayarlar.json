@@ -1,75 +1,75 @@
 {
 "botSettings": {
-    "botToken": ",
-    "botVoiceChannel": "844511002418872351",
-    "botOwners": ["820361956644093972", ""],
-    "prefix": ".",
-    "setFooter": "Spanker 💙 null"
+    "botToken": ".", //Discord developer'a girip tokeni kopyalayarıp yapıştırın!
+    "botVoiceChannel": "844511002418872351", //Bot sese gircek kanal
+    "botOwners": ["820361956644093972", ""], //Bot kuran kişinin id'si
+    "prefix": ".", //Botun prefix'i
+    "setFooter": "Sunucuİsmi 💙 Saitan" //Botun durumu
 },
 "mongoose": {
-    "mongoPath": ""
+    "mongoPath": "" //Mongo kurulumu bilmiyorsan youtube'da izleyebilirsin
 },
 "guildSettings": {
-    "guildID": "842141062960119859",
-    "guildName": "Cléra",
-    "tag": ["Cléra"],
-    "invite": "discord.gg/1971"
+    "guildID": "842141062960119859", //Sunucu'nun id'si
+    "guildName": "Cléra", //Sunucunun adı örnek "Saitan.exe"
+    "tag": ["Cléra"], //Sunucunun Tagı (Ekip tagı etiket tagı olmuyor!)
+    "invite": "discord.gg/1971" //Sunucunun davet edilecek linki
 },
 "guildHammer": {
-    "jailHammer": "844179252210958356",
-    "banHammer": "844179251007324221",
-    "muteHammer": "844179253264121918",
-    "vmuteHammer": "844179253264121918",
-    "auth": "844179254580609035",
-    "yts": ["844179223359127612","844179228046917673","844179231201165342"]
+    "jailHammer": "JAİL ROL ID",
+    "banHammer": "BAN ROL ID",
+    "muteHammer": "CHAT MUTE ROL ID",
+    "vmuteHammer": "VOİCE MUTE ROL ID",
+    "auth": "BUNU BİLEMEDİM IQ DÜŞTÜ",
+    "yts": ["844179223359127612","844179228046917673","844179231201165342"] //ANLAMADIM AMA DOLDURABİLİRSİN
 },
 "guildLogs": {
-"banLogs": "844512064424378388",
-"jailLogs": "844512093578461184",
-"muteLogs": "844512120985092106",
-"vmuteLogs": "844512145206542377",
-"welcome": "844179383975542794",
-"otoRoleLogs": "844512428087836672",
-"susLogs": "844512428087836672",
-"tagLogs": "844512503165616148",
-"spotifyChannel": "GEREK YOK BUNA",
-"banLimit" : "844512539970109460",
-"chat": "844179409228398613"
+"banLogs": "ban-log", //ID DOLDUR "BAN-LOG" YAZAN YERE
+"jailLogs": "jail-log", //ID DOLDUR "JAİL-LOG" YAZAN YERE
+"muteLogs": "mute-log", //ID DOLDUR "MUTE-LOG" YAZAN YERE
+"vmuteLogs": "vmute-log", //ID DOLDUR "VMUTE-LOG" YAZAN YERE
+"welcome": "register-chat", //ID DOLDUR "REGİSTER-CHAT" YAZAN YERE
+"otoRoleLogs": "otorol-log", //ID DOLDUR "OTOROL-LOG" YAZAN YERE
+"susLogs": "mute-log", //ID DOLDUR "MUTE-LOG" YAZAN YERE
+"tagLogs": "tag-log", //ID DOLDUR "TAG-LOG" YAZAN YERE
+"spotifyChannel": "spotify-chat", //ID DOLDUR "SPOTİFY-CHAT" YAZAN YERE
+"banLimit" : "5", //BAN ATMA SINIRI'DIR İD KOYMAYIN!
+"chat": "publicismi-chat" //ID DOLDUR "PUBLİCİSMİ-CHAT" YAZAN YERE
 },
 
 "guildRoles": {
-    "jailRole": "844179278547517440",
-    "vmuteRole":"EKLESEDE Bİ SİK DEGİSMEZ",
-    "muteRole": "844179280275046432",
-    "boosterRole": "842367623089750027",
-    "unregister": ["844179275505991681", "844179276869795891"],
-    "sus": "844179279369732108"
+    "jailRole": "|| Jail Hammer", // JAİL ATAN ROLÜN ID
+    "vmuteRole":"V.Muted", // SESTE MUTE YİYEN ROLÜN ID
+    "muteRole": "Muted", // YAZI KANALDA YAZAMAYACAK ROLÜN ID
+    "boosterRole": "Publicİsmi Booster 🚀", // BOOSTER ROLÜN ID
+    "unregister": ["People of Publicİsmi"], // KAYITSIZ ROL ID
+    "sus": "ANLAMADIM AMA DOLDUR"
 },
 "reg": {
-    "regHammer":"844179255092838421",
-    "erkekRoles": ["844179272159199252", "844179272494219316", "844179273785802782"],
-    "kariRoles": ["844179269042307093", "844179270024822815", "844179271282065419"],
-    "familyRole": "842141062998654987"
+    "regHammer":"REG HAMMER ROL ID",
+    "erkekRoles": ["Celia", "XX"],
+    "kariRoles": ["Che", "XY"],
+    "familyRole": "TAG ALAN ROL ID"
 
 },
 "yetkiliRole": {
-    "enAltYetkiliRole": "842141062998654987"
+    "enAltYetkiliRole": "İLK BAŞLADIĞI YETKİLİ ROL ID"
 },
 "emojiler": {
-    "mute": "",
-    "unmute": "",
-    "def": "",
-    "undef": "",
+    "mute": "", //MUTE MİKROFONUN EMOJİ ID
+    "unmute": "", //UNMUTE MİKROFONUN EMOJİ ID
+    "def": "", //ANLAMADIM İSTERSEN DOLDUR
+    "undef": "", //ANLAMADIM 2
     "onay": "<a:spankeronay:844186230551347201>",
     "red": "<a:spankeriptal:844186231612244009>" 
 },
 "yasakliTag": {
-    "yasakliTagRole": "844179278547517440"
+    "yasakliTagRole": "844179278547517440" //NİCKTE TAŞIYAN ROL ID
 },
 "ekstraRoles": {
-"vip": "844179267474554880",
-"lovers": "844179286725230592",
-"muzisyen": "844179263665864754",
-"sponsor": "844179262890442762"
+"vip": "VIP ROL ID",
+"lovers": "LOVERS ROL ID",
+"muzisyen": "MUZİSYEN ROL ID",
+"sponsor": "SPONSOR ROL ID"
 }
 }
